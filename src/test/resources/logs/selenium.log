@@ -1,0 +1,5 @@
+INFO    2022-10-30 13:06:58,550 [main] assignment.base.TestBase  - Config file loaded !!!
+INFO    2022-10-30 13:06:58,552 [main] assignment.base.TestBase  - OR file loaded !!!
+INFO    2022-10-30 13:07:01,451 [main] assignment.base.TestBase  - Chrome Launched !!!
+INFO    2022-10-30 13:07:03,695 [main] assignment.base.TestBase  - Navigated to : https://unicreds.com/contact-us
+INFO    2022-10-30 13:07:29,673 [main] assignment.base.TestBase  - test execution completed !!!
