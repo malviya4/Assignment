@@ -30,7 +30,7 @@ public class SignUp extends TestBase {
         driver.findElement(By.cssSelector(element.getProperty("submit"))).click();
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,150)", "");
-        driver.findElement(By.xpath("//div[@class='pl-3 pt-3']/child::div[contains(text(),'Message sent successfully!')]"));
+        driver.findElement(By.xpath(element.getProperty("path")));
         driver.navigate().refresh();
 
     }
